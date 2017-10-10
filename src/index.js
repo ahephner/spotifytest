@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Search from './components/search'
+import SearchResults from './components/search/searchresults'
 
 ReactDOM.render(
     <div className="row">
 <App>
-    <Search />
+    <SearchResults />
 </App>
 </div>,
 document.getElementById('root'));
