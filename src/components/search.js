@@ -1,5 +1,10 @@
+//Make global
+"use strict";
+
+
+//Imports & variable declarations
 import React, {Component} from 'react';
-// import Button from 'react-bootstrap';
+// import {Button} from 'react-bootstrap';
 
 class Search extends Component{
 	constructor(props){
