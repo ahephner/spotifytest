@@ -5,13 +5,12 @@ import React, {Component} from 'react';
 class Search extends Component{
 	constructor(props){
 		super(props);
-
-		this.state = {term: ''};
+		this.state = {term: 'aerosmith'};
 	}
 	render() {
 		return (
 			<div className="search-bar">
-				<label className="vidSearchLbl">Search Spotify:</label>
+				<label>Search Spotify:</label>
 				<input value={this.state.term} onChange={(event) => this.onInputChange(event.target.value)} />
 				<button className="btn btn-primary" id="button">Search</button>
 			</div>
